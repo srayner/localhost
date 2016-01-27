@@ -43,6 +43,8 @@ h2 {
     .icon-presentation {background-image: url("../img/Presentation_128.png");}
     .icon-drive {background-image: url("../img/Drive_128.png");}
     .icon-scissors {background-image: url("../img/Scissors_128.png");}
+    .icon-zf2 {background-image: url("../img/zf2.png");}
+    .icon-phpmyadmin {background-image: url("../img/phpmyadmin.png");}
     
     
     .link {
@@ -55,6 +57,33 @@ h2 {
     .icon{
     width: 50%;
     height: 50%;
+}
+
+input {
+    float:right;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    margin-right:4px;
+    margin-top: 4px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.light-link {
+    color: #aaa;
+    float: right;
+    font-size: 16px;
+    margin-right: 4px;
+    margin-left: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.light-link:hover {
+    color: #fff;
 }
 
 @media only screen and (max-width : 480px) {
