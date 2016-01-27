@@ -1,0 +1,87 @@
+html, body { 
+   height: 100%;
+   background-color: #000;
+   font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 400;
+    margin: 4px 14px;
+    font-size: 16px;
+}
+
+#wrapper {
+      overflow: hidden;
+    }
+    .box {
+      width: 20%;
+      padding-bottom: 20%;
+      color: #f00;
+      position: relative;
+      float: left;
+    }
+    .innerContent {
+      position: absolute;
+      left: 4px;
+      right: 4px;
+      top: 4px;
+      bottom: 4px;
+      background: #0078d7;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 10px;
+      font-weight: 300;
+    }
+    
+    .icon-globe {background-image: url("../img/Globe_128.png");}
+    .icon-gear {background-image: url("../img/Gear_128.png");}
+    .icon-binoculars {background-image: url("../img/Binoculars_128.png");}
+    .icon-star {background-image: url("../img/Star_128.png");}
+    .icon-pencil {background-image: url("../img/Pencil_128.png");}
+    .icon-hand {background-image: url("../img/Hand_128.png");}
+    .icon-presentation {background-image: url("../img/Presentation_128.png");}
+    .icon-drive {background-image: url("../img/Drive_128.png");}
+    .icon-scissors {background-image: url("../img/Scissors_128.png");}
+    
+    
+    .link {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+        background-color: red;
+    }
+    
+    .icon{
+    width: 50%;
+    height: 50%;
+}
+
+@media only screen and (max-width : 480px) {
+      /* Smartphone view: 1 tile */
+      .box {
+        width: 100%;
+        padding-bottom: 100%;
+      }
+    }
+    @media only screen and (max-width : 650px) and (min-width : 481px) {
+      /* Tablet view: 2 tiles */
+      .box {
+        width: 50%;
+        padding-bottom: 50%;
+      }
+    }
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+      }
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+      .box {
+        width: 25%;
+        padding-bottom: 25%;
+      }
+    }
